@@ -19,6 +19,9 @@ class arithmatic {
     public static void main(String[] args) {
         calculator z = new calculator();
         z.calci();
+        Extend_calci c = new Extend_calci();
+        c.squre(5);
+        c.cube(5);
         
     }
 }
